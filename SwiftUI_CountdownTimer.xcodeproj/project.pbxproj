@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		768B5FC325A93F82000BF883 /* CountdownTimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountdownTimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		768B5FC325A93F82000BF883 /* SwiftUI_CountdownTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_CountdownTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768B5FC625A93F82000BF883 /* CountdownTimerDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerDemoApp.swift; sourceTree = "<group>"; };
 		768B5FC825A93F82000BF883 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		768B5FCA25A93F85000BF883 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		768B5FBA25A93F82000BF883 = {
 			isa = PBXGroup;
 			children = (
-				768B5FC525A93F82000BF883 /* CountdownTimerDemo */,
+				768B5FC525A93F82000BF883 /* SwiftUI_CountdownTimer */,
 				768B5FC425A93F82000BF883 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,12 +44,12 @@
 		768B5FC425A93F82000BF883 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				768B5FC325A93F82000BF883 /* CountdownTimerDemo.app */,
+				768B5FC325A93F82000BF883 /* SwiftUI_CountdownTimer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		768B5FC525A93F82000BF883 /* CountdownTimerDemo */ = {
+		768B5FC525A93F82000BF883 /* SwiftUI_CountdownTimer */ = {
 			isa = PBXGroup;
 			children = (
 				768B5FC625A93F82000BF883 /* CountdownTimerDemoApp.swift */,
@@ -58,7 +58,7 @@
 				768B5FCF25A93F85000BF883 /* Info.plist */,
 				768B5FCC25A93F85000BF883 /* Preview Content */,
 			);
-			path = CountdownTimerDemo;
+			path = SwiftUI_CountdownTimer;
 			sourceTree = "<group>";
 		};
 		768B5FCC25A93F85000BF883 /* Preview Content */ = {
@@ -72,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		768B5FC225A93F82000BF883 /* CountdownTimerDemo */ = {
+		768B5FC225A93F82000BF883 /* SwiftUI_CountdownTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 768B5FD225A93F85000BF883 /* Build configuration list for PBXNativeTarget "CountdownTimerDemo" */;
+			buildConfigurationList = 768B5FD225A93F85000BF883 /* Build configuration list for PBXNativeTarget "SwiftUI_CountdownTimer" */;
 			buildPhases = (
 				768B5FBF25A93F82000BF883 /* Sources */,
 				768B5FC025A93F82000BF883 /* Frameworks */,
@@ -84,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = CountdownTimerDemo;
+			name = SwiftUI_CountdownTimer;
 			productName = CountdownTimerDemo;
-			productReference = 768B5FC325A93F82000BF883 /* CountdownTimerDemo.app */;
+			productReference = 768B5FC325A93F82000BF883 /* SwiftUI_CountdownTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 768B5FBE25A93F82000BF883 /* Build configuration list for PBXProject "CountdownTimerDemo" */;
+			buildConfigurationList = 768B5FBE25A93F82000BF883 /* Build configuration list for PBXProject "SwiftUI_CountdownTimer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				768B5FC225A93F82000BF883 /* CountdownTimerDemo */,
+				768B5FC225A93F82000BF883 /* SwiftUI_CountdownTimer */,
 			);
 		};
 /* End PBXProject section */
@@ -268,16 +268,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CountdownTimerDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_CountdownTimer/Preview Content\"";
 				DEVELOPMENT_TEAM = WLM5288XUV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CountdownTimerDemo/Info.plist;
+				INFOPLIST_FILE = SwiftUI_CountdownTimer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.opentidecn.subwayapp.CountdownTimerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opentidecn.subwayapp.SwiftUI_CountdownTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,16 +290,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CountdownTimerDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI_CountdownTimer/Preview Content\"";
 				DEVELOPMENT_TEAM = WLM5288XUV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CountdownTimerDemo/Info.plist;
+				INFOPLIST_FILE = SwiftUI_CountdownTimer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.opentidecn.subwayapp.CountdownTimerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opentidecn.subwayapp.SwiftUI_CountdownTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		768B5FBE25A93F82000BF883 /* Build configuration list for PBXProject "CountdownTimerDemo" */ = {
+		768B5FBE25A93F82000BF883 /* Build configuration list for PBXProject "SwiftUI_CountdownTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				768B5FD025A93F85000BF883 /* Debug */,
@@ -318,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		768B5FD225A93F85000BF883 /* Build configuration list for PBXNativeTarget "CountdownTimerDemo" */ = {
+		768B5FD225A93F85000BF883 /* Build configuration list for PBXNativeTarget "SwiftUI_CountdownTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				768B5FD325A93F85000BF883 /* Debug */,
